@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Vinculacion con los estilos-->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/nosotros.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/contacto.css" />
 
     <!--Fuentes de letras-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -29,7 +29,7 @@
       rel="stylesheet"
     />
 
-    <title>Nosotros|Parrilla el Titán</title>
+    <title>Contacto|Parrilla el Titán</title>
   </head>
   <header class="main-header">
     <div class="container container--flex">
@@ -42,7 +42,7 @@
         </p>
 
         <p class="main-header__contactInfo__adress">
-          <span class="icon-location"> Ezeiza - Bs.As. </span>
+          <span class="icon-location"> Ezeiza - Bs.As.</span>
         </p>
       </div>
     </div>
@@ -54,18 +54,20 @@
         <span class="icon-menu" id="btnmenu"></span>
         <ul class="menu" id="menu">
           <li class="menu__item">
-            <a href="index.html" class="menu__link">Inicio</a>
+            <a href="../index.html" class="menu__link">Inicio</a>
           </li>
           <li class="menu__item">
-            <a href="nosotros.html" class="menu__link menu__link--select"
-              >Nosotros</a
+            <a href="../pages/nosotros.html" class="menu__link">Nosotros</a>
+          </li>
+          <li class="menu__item">
+            <a href="../pages/galeria.html" class="menu__link">Galeria</a>
+          </li>
+          <li class="menu__item">
+            <a
+              href="../pages/contacto.html"
+              class="menu__link menu__link--select"
+              >Contacto</a
             >
-          </li>
-          <li class="menu__item">
-            <a href="galeria.html" class="menu__link">Galeria</a>
-          </li>
-          <li class="menu__item">
-            <a href="contacto.html" class="menu__link">Contacto</a>
           </li>
         </ul>
         <!--Iconos de Redes Sociales-->
@@ -85,63 +87,90 @@
     </nav>
     <section class="banner">
       <img
-        src="imagenes/barbecue-1239434_1920.jpg"
+        src="../imagenes/Galeria/banner _contacto.jpg"
         alt=""
         class="banner__img"
       />
       <div class="banner__content">
-        Ponemos todo nuestro servicio a tu disposición
+        Estamos para ayudarte, dejanos tu mensaje
       </div>
     </section>
     <main class="main">
-      <section class="group group--color">
-        <div class="container">
-          <h2 class="main__title">Te contamos sobre nosotros</h2>
-          <p class="main__txt">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-            iste assumenda sit labore blanditiis expedita suscipit obcaecati
-            sint odio sunt eos dolore incidunt natus earum mollitia accusantium
-            similique, amet fugiat.
-          </p>
-        </div>
-      </section>
-      <section class="group our-team">
-        <h2 class="group__title">Nuestro Equipo</h2>
+      <section class="group contact">
+        <h2 class="group__title">Contáctenos</h2>
         <div class="container container--flex">
-          <div class="column column--33">
-            <h3 class="our-team__title">Claudio</h3>
-            <img
-              src="imagenes/chefs/claudio.jpg"
-              alt=""
-              class="our-team__img"
+          <div class="contact-information column column--50">
+            <h3 class="column__title">Información de Contacto</h3>
+            <p class="column__txt">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus,
+              itaque eius. Distinctio, quas exercitationem ad nobis molestias
+              tempore accusamus officiis quidem magnam corrupti
+            </p>
+            <p class="column__txt">
+              <span class="icon-phone"></span>Télefono 1: 1122334455
+            </p>
+            <p class="column__txt">
+              <span class="icon-phone"></span>Télefono 2: 9999999999
+            </p>
+            <p class="column__txt">
+              <span class="icon-location"></span>Ezeiza-Buenos Aires
+            </p>
+            <p class="column__txt">
+              <span class="icon-mail"></span>consultas@parrillaeltitan.com
+            </p>
+            <div class="social-icon">
+              <a href="" class="social-icon__link"
+                ><span class="icon-facebook"></span></a
+              ><a href="" class="social-icon__link"
+                ><span class="icon-twitter"></span></a
+              ><a href="" class="social-icon__link"
+                ><span class="icon-youtube"></span
+              ></a>
+              <a href="" class="social-icon__link"
+                ><span class="icon-mail"></span
+              ></a>
+            </div>
+          </div>
+          <form
+            action="https://formsubmit.co/hpjar_2002@hotmail.com"
+            method="post"
+            class="formulario column column--50"
+          >
+            <label for="" class="formulario__label">Nombre:</label>
+            <input
+              type="text"
+              class="formulario__input--txt"
+              pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+              name="nombre"
+              title="Nombre sólo acepta letras y espacios en blanco"
+              required
             />
-            <p class="our-team__txt">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum
-              illum culpa, iusto architecto qui, magni dolorem ipsam veritatis
-              iure est sint. Ipsa quia rem quidem nisi! Explicabo fugiat
-              architecto aspernatur?
-            </p>
-          </div>
-          <div class="column column--33">
-            <h3 class="our-team__title">Okos</h3>
-            <img src="imagenes/chefs/okos.jpg" alt="" class="our-team__img" />
-            <p class="our-team__txt">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-              commodi, minima a quibusdam enim neque distinctio deleniti modi
-              ipsam explicabo debitis corrupti sint ratione eos tempora? Cumque
-              labore inventore similique?
-            </p>
-          </div>
-          <div class="column column--33">
-            <h3 class="our-team__title">Toreto</h3>
-            <img src="imagenes/chefs/toreto.jpg" alt="" class="our-team__img" />
-            <p class="our-team__txt">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
-              aliquid, ipsum modi distinctio natus reiciendis cum sunt commodi
-              necessitatibus ducimus molestiae accusantium quaerat id illum
-              eveniet, quod quidem omnis repudiandae?
-            </p>
-          </div>
+            <label for="" class="formulario__label">Correo:</label>
+            <input
+              type="text"
+              class="formulario__input--txt"
+              name="correo"
+              pattern="^(\w+[/./-]?){1,0}@[a-z]+[/.]\w{2,}$"
+              title="Formato de correo inválido"
+              required
+            /><label for="" class="formulario__label" required>Teléfono:</label>
+            <input
+              type="number"
+              class="formulario__input--txt"
+              name="telefono"
+              required
+            />
+            <label for="" class="formulario__label">Mensaje:</label>
+            <textarea
+              name="mensaje"
+              id=""
+              cols="30"
+              rows="10"
+              class="formulario__textarea"
+              required
+            ></textarea>
+            <input type="submit" class="btn formulario__btn" value="Enviar" />
+          </form>
         </div>
       </section>
     </main>
@@ -178,5 +207,6 @@
       <p class="copy">2023 Todos los Derechos Reservados</p>
     </footer>
     <script src="js/menu.js"></script>
+    <script src="js/modal.js"></script>
   </body>
 </html>
