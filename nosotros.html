@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Vinculacion con los estilos-->
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/galeria.css" />
+    <link rel="stylesheet" href="../css/nosotros.css" />
 
     <!--Fuentes de letras-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -29,7 +29,7 @@
       rel="stylesheet"
     />
 
-    <title>Galería|Parrilla el Titán</title>
+    <title>Nosotros|Parrilla el Titán</title>
   </head>
   <header class="main-header">
     <div class="container container--flex">
@@ -42,38 +42,30 @@
         </p>
 
         <p class="main-header__contactInfo__adress">
-          <span class="icon-location"> Ezeiza - Bs.As.</span>
+          <span class="icon-location"> Ezeiza - Bs.As. </span>
         </p>
       </div>
     </div>
   </header>
   <body>
-    <div class="modal" id="modal">
-      <div class="modal__content">
-        <img src="" alt="" class="modal__img" id="modal__img" />
-      </div>
-      <div class="modal__boton" id="modal__boton">X</div>
-    </div>
     <nav class="main-nav">
       <div class="container container--flex">
         <!-- menu hamburguesa-->
         <span class="icon-menu" id="btnmenu"></span>
         <ul class="menu" id="menu">
           <li class="menu__item">
-            <a href="../index.html" class="menu__link">Inicio</a>
+            <a href="index.html" class="menu__link">Inicio</a>
           </li>
           <li class="menu__item">
-            <a href="../pages/nosotros.html" class="menu__link">Nosotros</a>
-          </li>
-          <li class="menu__item">
-            <a
-              href="../pages/galeria.html"
-              class="menu__link menu__link--select"
-              >Galeria</a
+            <a href="nosotros.html" class="menu__link menu__link--select"
+              >Nosotros</a
             >
           </li>
           <li class="menu__item">
-            <a href="../pages/contacto.html" class="menu__link">Contacto</a>
+            <a href="galeria.html" class="menu__link">Galeria</a>
+          </li>
+          <li class="menu__item">
+            <a href="contacto.html" class="menu__link">Contacto</a>
           </li>
         </ul>
         <!--Iconos de Redes Sociales-->
@@ -93,7 +85,7 @@
     </nav>
     <section class="banner">
       <img
-        src="../imagenes/banners/avocado-1838785_1920.jpg"
+        src="imagenes/barbecue-1239434_1920.jpg"
         alt=""
         class="banner__img"
       />
@@ -102,59 +94,56 @@
       </div>
     </section>
     <main class="main">
-      <div class="group gallery">
-        <h2 class="group__title">Nuestros Productos</h2>
+      <section class="group group--color">
+        <div class="container">
+          <h2 class="main__title">Te contamos sobre nosotros</h2>
+          <p class="main__txt">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+            iste assumenda sit labore blanditiis expedita suscipit obcaecati
+            sint odio sunt eos dolore incidunt natus earum mollitia accusantium
+            similique, amet fugiat.
+          </p>
+        </div>
+      </section>
+      <section class="group our-team">
+        <h2 class="group__title">Nuestro Equipo</h2>
         <div class="container container--flex">
-          <div class="column column--50-25">
+          <div class="column column--33">
+            <h3 class="our-team__title">Claudio</h3>
             <img
-              src="../imagenes/Galeria/breakfast-456351_1920.jpg"
+              src="imagenes/chefs/claudio.jpg"
               alt=""
-              class="gallery__img gallery__img--big"
+              class="our-team__img"
             />
-            <img
-              src="../imagenes/Galeria/burger-2762431_1920.jpg"
-              alt=""
-              class="gallery__img gallery__img--small"
-            />
+            <p class="our-team__txt">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum
+              illum culpa, iusto architecto qui, magni dolorem ipsam veritatis
+              iure est sint. Ipsa quia rem quidem nisi! Explicabo fugiat
+              architecto aspernatur?
+            </p>
           </div>
-          <div class="column column--50-25">
-            <img
-              src="../imagenes/Galeria/cheese-1869708_1920.jpg"
-              alt=""
-              class="gallery__img gallery__img--small"
-            />
-            <img
-              src="../imagenes/Galeria/loaf-5243564_1920.jpg"
-              alt=""
-              class="gallery__img gallery__img--big"
-            />
+          <div class="column column--33">
+            <h3 class="our-team__title">Okos</h3>
+            <img src="imagenes/chefs/okos.jpg" alt="" class="our-team__img" />
+            <p class="our-team__txt">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+              commodi, minima a quibusdam enim neque distinctio deleniti modi
+              ipsam explicabo debitis corrupti sint ratione eos tempora? Cumque
+              labore inventore similique?
+            </p>
           </div>
-          <div class="column column--50-25">
-            <img
-              src="../imagenes/Galeria/pasta-3547078_1920.jpg"
-              alt=""
-              class="gallery__img gallery__img--big"
-            />
-            <img
-              src="../imagenes/Galeria/salami-2645403_1920.jpg"
-              alt=""
-              class="gallery__img gallery__img--small"
-            />
-          </div>
-          <div class="column column--50-25">
-            <img
-              src="../imagenes/Galeria/tacos-2456040_1920.jpg"
-              alt=""
-              class="gallery__img gallery__img--small"
-            />
-            <img
-              src="../imagenes/Galeria/tacos-al-pastor-4351813_1920.jpg"
-              alt=""
-              class="gallery__img gallery__img--big"
-            />
+          <div class="column column--33">
+            <h3 class="our-team__title">Toreto</h3>
+            <img src="imagenes/chefs/toreto.jpg" alt="" class="our-team__img" />
+            <p class="our-team__txt">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+              aliquid, ipsum modi distinctio natus reiciendis cum sunt commodi
+              necessitatibus ducimus molestiae accusantium quaerat id illum
+              eveniet, quod quidem omnis repudiandae?
+            </p>
           </div>
         </div>
-      </div>
+      </section>
     </main>
     <footer class="main-footer">
       <div class="container container--flex">
@@ -189,6 +178,5 @@
       <p class="copy">2023 Todos los Derechos Reservados</p>
     </footer>
     <script src="js/menu.js"></script>
-    <script src="js/modal.js"></script>
   </body>
 </html>
